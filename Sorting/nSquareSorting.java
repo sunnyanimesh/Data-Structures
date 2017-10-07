@@ -18,6 +18,11 @@ public class nSquareSorting {
 				bubblesort(arr.clone(),n);
 				selectionsort(arr.clone(),n);
 				insertionsort(arr.clone(),n);
+				
+				
+				
+
+
 		}
 		
 	}
