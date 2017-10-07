@@ -15,9 +15,9 @@ public class nSquareSorting {
 			for(int i=0;i<n;i++)
 				arr[i] = scan.nextInt();
 			
-				bubblesort(arr.clone(),n);
-				selectionsort(arr.clone(),n);
-				insertionsort(arr.clone(),n);
+			bubblesort(arr.clone(),n);
+			selectionsort(arr.clone(),n);
+			insertionsort(arr.clone(),n);
 				
 				
 				

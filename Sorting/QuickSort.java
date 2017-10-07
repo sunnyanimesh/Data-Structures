@@ -16,13 +16,12 @@ public class QuickSort {
 				arr[i] = scan.nextInt();
 			
 
-				long startTime = System.nanoTime();
-				quicksort(arr,0,n-1);
-				long endTime   = System.nanoTime();
-				long totalTime = endTime - startTime;
-				System.out.println("quick sort: " + totalTime);
-				
-				System.out.println(Arrays.toString(arr));
+			long startTime = System.nanoTime();
+			quicksort(arr,0,n-1);
+			long endTime   = System.nanoTime();
+			long totalTime = endTime - startTime;
+			System.out.println("quick sort: " + totalTime);				
+			System.out.println(Arrays.toString(arr));
 		}
 		
 	}

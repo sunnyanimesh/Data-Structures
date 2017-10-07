@@ -16,13 +16,12 @@ public class HeapSort {
 				arr[i] = scan.nextInt();
 			
 
-				long startTime = System.nanoTime();
-				heapsort(arr,n);
-				long endTime   = System.nanoTime();
-				long totalTime = endTime - startTime;
-				System.out.println("heap sort: " + totalTime);
-				
-				System.out.println(Arrays.toString(arr));
+			long startTime = System.nanoTime();
+			heapsort(arr,n);
+			long endTime   = System.nanoTime();
+			long totalTime = endTime - startTime;
+			System.out.println("heap sort: " + totalTime);	
+			System.out.println(Arrays.toString(arr));
 		}
 		
 	}
