@@ -31,13 +31,6 @@ public class LevelOrderTraversal {
 			binaryTree.root.right.right = new Node(7);
 			levelOrder(binaryTree.root);
 
-			/*
-		 * 				5
-		 * 			2		3
-		 * 		4	   5  6		7	
-		 * 
-		 * 
-		 * */
 		
 		
 	}
