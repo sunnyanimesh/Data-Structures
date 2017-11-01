@@ -27,6 +27,7 @@ public class DiagnalTraversal {
 		}
 		
 		
+	
 		
 		while(!queue.isEmpty())
 		{  Node temp = queue.poll();
@@ -39,6 +40,7 @@ public class DiagnalTraversal {
 					temp2 = temp2.right;
 					}
 			}
+			
 			
 		}
 	}
